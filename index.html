@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task Coins</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📚 Task & Shop System</h1>
+
+  <div class="coins">💰 Coins: <span id="coin-count">0</span></div>
+  <div id="level">🏅 Level 1</div>
+
+  <div style="text-align:center; margin: 1rem 0;">
+    <input type="text" id="search" placeholder="🔍 Search tasks or shop..." />
+  </div>
+
+  <h2>✅ Tasks</h2>
+  <div class="task"><span>Read (Easy)</span><button data-value="100">Claim 100</button></div>
+  <div class="task"><span>Read (Medium)</span><button data-value="250">Claim 250</button></div>
+  <div class="task"><span>Read (Hard)</span><button data-value="500">Claim 500</button></div>
+  <div class="task"><span>Read (Extreme)</span><button data-value="1000">Claim 1K</button></div>
+  <div class="task"><span>wake early (11-12)</span><button data-value="10000">Claim 10K</button></div>
+  <div class="task"><span>Sleep early (3-4)</span><button data-value="10000">Claim 10K</button></div>
+  <div class="task"><span>all tasks success (all that said)</span><button data-value="100000">Claim 100K</button></div>
+
+  <h2>🛒 Shop</h2>
+  <div class="shop-item"><span>🎮 Game (30 min)</span><button data-cost="20000">Buy 20k</button></div>
+  <div class="shop-item"><span>📺 Film (30 min)</span><button data-cost="10000">Buy 10k</button></div>
+  <div class="shop-item"><span>🆓 Free Time (30 min)</span><button data-cost="5000">Buy 5k</button></div>
+  <div class="shop-item"><span>🎥 YouTube Shorts (30 min)</span><button data-cost="100000">Buy 100k</button></div>
+  <div class="shop-item"><span>😆 1 film</span><button data-cost="1000000">Buy 1m</button></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
